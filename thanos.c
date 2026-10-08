@@ -50,13 +50,9 @@ void remove_thanos(thanos t) {
         i++;
         lc = lc -> suivant;
     }
-    t -> debut = nouveau_thanos -> debut ;
+    t -> debut = nouveau_thanos -> debut;
     t -> fin = nouveau_thanos -> fin ;
 }
 
-list_chaine* snap(list_chaine* lc ,thanos t) {
-    if (lc == NULL) return NULL;
 
-
-}
 
